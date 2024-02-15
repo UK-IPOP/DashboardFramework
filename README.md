@@ -19,7 +19,7 @@ Objects:
     <li>MeasureData.js: class containing the measurement's data and functions need to process the data.</li>
 </ul>
 ## How to Use the Dashboard Framework
-Full prototype located in the examples directory or view an interactive demo <a href="https://dan44red.github.io/DashboardFramework/examples/" target="_blank">HERE</a>
+Full prototype located in the examples directory or view an interactive demo <a href="https://uk-ipop.github.io/DashboardFramework/examples/" target="_blank">HERE</a>
 
 <code>
 
