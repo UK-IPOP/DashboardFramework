@@ -16,7 +16,13 @@ export class MeasureManager {
         this.isPublic = false;
         this.dataLocation = "example";
         this.initialCounter = 0;
-        this.DataSet = [];
+        this.MeasureTitles = [];
+        this.MeasureDataset = [];
+    }
+
+    addMeasureData(id, data, minSuppression, maxSuppression){
+        let md = new MeasureData(id, data, minSuppression, maxSuppression)
+        this.MeasureDataset[id] = md;
     }
 
     setIsPublic(val){
@@ -29,19 +35,19 @@ export class MeasureManager {
             indata
         );
         let key = (group  == 'undefined')? measureTitle.measureID : group+'_'+measureTitle.measureID ;
-        if(!(key in this.DataSet)){
+        if(!(key in this.MeasureTitles)){
             var temp = {};
             temp.GraphTitleInfo = measureTitle;
             temp.missingData = true;
-            this.DataSet[key] = temp;
+            this.MeasureTitles[key] = temp;
         }
     }
 
     getGraphTitle(id){
-        if(typeof this.DataSet[id] == 'undefined'){
+        if(typeof this.MeasureTitles[id] == 'undefined'){
             return null;
         }
-        return this.DataSet[id].GraphTitleInfo;
+        return this.MeasureTitles[id].GraphTitleInfo;
     }
 
     //Creates a graph module based on a few inputs
@@ -62,13 +68,7 @@ export class MeasureManager {
         }
         let gI = this.getGraphTitle(county+"_"+measureID);
         let newGraphModule = null;
-        switch(isCustom){
-            case "geospatial":
-                newGraphModule = new GeospatialModule(this.initialCounter, measureID, gI, divType, parentID, county);
-            break;
-            default:
-                newGraphModule = new GraphModule(this.initialCounter, measureID, gI, this.isPublic, divType, parentID, county, false, 1, interval);
-        }
+        newGraphModule = new GraphModule(this.initialCounter, measureID, gI, this.isPublic, divType, parentID, county, false, 1, interval);
         this.initialCounter++;
         let data = this.grabMeasureData(measureID);
         newGraphModule.addData(data);
@@ -77,13 +77,14 @@ export class MeasureManager {
 
     //Example script to generate fake data in the CDM format
     grabMeasureData(measureID){
-        switch(measureID){
-            case "example":
-                return this.generateExampleData(measureID);
-            break;
-            case "example_geo":
-                return this.generateGeoExampleData(measureID);
-            break;
+        if(measureID == "example"){
+            return this.generateExampleData(measureID);
+        }
+        else if(measureID in this.MeasureDataset){
+            return this.MeasureDataset[measureID];
+        }
+        else{
+            return null;
         }
     }
 
@@ -95,8 +96,8 @@ export class MeasureManager {
         let max = 100;
         let denominator = 10000;
 
-        let minSuppression = null;
-        let maxSuppression = null;
+        let minSuppression = 1;
+        let maxSuppression = 5;
 
         let quarterValues = [];
         let yearValues = [];
@@ -104,79 +105,94 @@ export class MeasureManager {
         for (let currentDate = startDate; currentDate <= endDate; ){
             let month = currentDate.getMonth()+1;
             let year = currentDate.getFullYear();
+
+            let calculatedvalue = Math.floor(Math.random() * (max - min + 1)) + min;
+            let calculatedvalue_quarter = 0;
+            
             data.push(
                 {
-                    "numerator": Math.floor(Math.random() * (max - min + 1)) + min,
+                    "numerator": calculatedvalue >= minSuppression && calculatedvalue <= maxSuppression? -1 : calculatedvalue,
                     "denominator": denominator,
                     "month": month,
                     "quarter": null,
                     "year": year,
-                    "stratification": null,
+                    "stratification": this.generateExampleStratification(calculatedvalue, minSuppression, maxSuppression),
                     "notes": "Values between 1-5 are suppressed",
+                    "issuppressed" : calculatedvalue >= minSuppression && calculatedvalue <= maxSuppression? 1 : 0
                 }
             );
 
             switch(month.toString()){
                 case '1':
+                    calculatedvalue_quarter = Math.floor(Math.random() * (max - min + 1)) + min;
                     quarterValues.push(
                         {
-                            "numerator": Math.floor(Math.random() * (max - min + 1)) + min,
+                            "numerator": calculatedvalue_quarter >= minSuppression && calculatedvalue_quarter <= maxSuppression? -1 : calculatedvalue_quarter,
                             "denominator": denominator,
                             "month": null,
                             "quarter": 1,
                             "year": year,
-                            "stratification": null,
+                            "stratification": this.generateExampleStratification(calculatedvalue_quarter, minSuppression, maxSuppression),
                             "notes": null,
+                            "issuppressed" : this.calculateFrontendSuppressionExample(calculatedvalue_quarter, minSuppression, maxSuppression)
                         }
                     );
+                    let calculatedvalue_year = Math.floor(Math.random() * (max - min + 1)) + min;
                     yearValues.push(
                         {
-                            "numerator": Math.floor(Math.random() * (max - min + 1)) + min,
+                            "numerator": calculatedvalue_year >= minSuppression && calculatedvalue_year <= maxSuppression? -1 : calculatedvalue_year,
                             "denominator": denominator,
                             "month": null,
                             "quarter": null,
                             "year": year,
-                            "stratification": this.generateExampleStratification(),
+                            "stratification": this.generateExampleStratification(calculatedvalue_year, minSuppression, maxSuppression),
                             "notes": null,
+                            "issuppressed" : this.calculateFrontendSuppressionExample(calculatedvalue_year, minSuppression, maxSuppression)
                         }
                     );
                 break;
                 case '4':
+                    calculatedvalue_quarter = Math.floor(Math.random() * (max - min + 1)) + min;
                     quarterValues.push(
                         {
-                            "numerator": Math.floor(Math.random() * (max - min + 1)) + min,
+                            "numerator": calculatedvalue_quarter >= minSuppression && calculatedvalue_quarter <= maxSuppression? -1 : calculatedvalue_quarter,
                             "denominator": denominator,
                             "month": null,
                             "quarter": 2,
                             "year": year,
-                            "stratification": null,
+                            "stratification": this.generateExampleStratification(calculatedvalue_quarter, minSuppression, maxSuppression),
                             "notes": null,
+                            "issuppressed" : this.calculateFrontendSuppressionExample(calculatedvalue_quarter, minSuppression, maxSuppression)
                         }
                     );
                 break;
                 case '7':
+                    calculatedvalue_quarter = Math.floor(Math.random() * (max - min + 1)) + min;
                     quarterValues.push(
                         {
-                            "numerator": Math.floor(Math.random() * (max - min + 1)) + min,
+                            "numerator": calculatedvalue_quarter >= minSuppression && calculatedvalue_quarter <= maxSuppression? -1 : calculatedvalue_quarter,
                             "denominator": denominator,
                             "month": null,
                             "quarter": 3,
                             "year": year,
-                            "stratification": null,
+                            "stratification": this.generateExampleStratification(calculatedvalue_quarter, minSuppression, maxSuppression),
                             "notes": null,
+                            "issuppressed" : this.calculateFrontendSuppressionExample(calculatedvalue_quarter, minSuppression, maxSuppression)
                         }
                     );
                 break;
                 case '10':
+                    calculatedvalue_quarter = Math.floor(Math.random() * (max - min + 1)) + min;
                     quarterValues.push(
                         {
-                            "numerator": Math.floor(Math.random() * (max - min + 1)) + min,
+                            "numerator": calculatedvalue_quarter >= minSuppression && calculatedvalue_quarter <= maxSuppression? -1 : calculatedvalue_quarter,
                             "denominator": denominator,
                             "month": null,
                             "quarter": 4,
                             "year": year,
-                            "stratification": null,
+                            "stratification": this.generateExampleStratification(calculatedvalue_quarter, minSuppression, maxSuppression),
                             "notes": null,
+                            "issuppressed" : this.calculateFrontendSuppressionExample(calculatedvalue_quarter, minSuppression, maxSuppression)
                         }
                     );
                 break;
@@ -188,144 +204,82 @@ export class MeasureManager {
         return new MeasureData(measureID, data, minSuppression, maxSuppression)
     }
 
-    generateGeoExampleData(measureID){
-        let exampleCounties = [
-            'adair','allen','anderson','ballard','barren','bath','bell',
-            'boone','bourbon','boyd','boyle','bracken','breathitt','breckinridge',
-            'bullitt','butler','caldwell','calloway','campbell','carlisle','carroll',
-            'carter','casey','christian','clark','clay','clinton','crittenden','cumberland',
-            'daviess','edmonson','elliott','estill','fayette','fleming','floyd','franklin',
-            'fulton','gallatin','garrard','grant','graves','grayson','green','greenup',
-            'hancock','hardin','harlan','harrison','hart','henderson','henry','hickman',
-            'hopkins','jackson','jefferson','jessamine','johnson','kenton','knott','knox',
-            'larue','laurel','lawrence','lee','leslie','letcher','lewis','lincoln','livingston',
-            'logan','lyon','madison','magoffin','marion','marshall','martin','mason',
-            'mccracken','mccreary','mclean','meade','menifee','mercer','metcalfe','monroe',
-            'montgomery','morgan','muhlenberg','nelson','nicholas','ohio','oldham','owen',
-            'owsley','pendleton','perry','pike','powell','pulaski','robertson','rockcastle',
-            'rowan','russell','scott','shelby','simpson','spencer','taylor','todd','trigg',
-            'trimble','union','warren','washington','wayne','webster','whitley','wolfe','woodford'
-        ];
-
-        let data = [];
-
-
-        exampleCounties.forEach((county)=>{
-            let startDate = new Date(2020, 0, 1);
-            let endDate = new Date();
-            let min = 0;
-            let max = 100;
-            let denominator = 10000;
-
-            let quarterValues = [];
-            let yearValues = [];
-
-            for (let currentDate = startDate; currentDate <= endDate; ){
-                let month = currentDate.getMonth()+1;
-                let year = currentDate.getFullYear();
-                data.push(
-                    {
-                        "community":county,
-                        "numerator": Math.floor(Math.random() * (max - min + 1)) + min,
-                        "denominator": denominator,
-                        "month": month,
-                        "quarter": null,
-                        "year": year,
-                        "stratification": null,
-                        "notes": "Values between 1-5 are suppressed",
-                        "submode": "geolocation",
-                    }
-                );
-
-                switch(month){
-                    case 1:
-                    case '1':
-                        quarterValues.push(
-                            {
-                                "community":county,
-                                "numerator": Math.floor(Math.random() * (max - min + 1)) + min,
-                                "denominator": denominator,
-                                "month": null,
-                                "quarter": 1,
-                                "year": year,
-                                "stratification": null,
-                                "notes": null,
-                                "submode": "geolocation",
-                            }
-                        );
-                        yearValues.push(
-                            {
-                                "community":county,
-                                "numerator": Math.floor(Math.random() * (max - min + 1)) + min,
-                                "denominator": denominator,
-                                "month": null,
-                                "quarter": null,
-                                "year": year,
-                                "stratification": this.generateExampleStratification(),
-                                "notes": null,
-                                "submode": "geolocation",
-                            }
-                        );
-                    break;
-                    case 4:
-                    case '4':
-                        quarterValues.push(
-                            {
-                                "community":county,
-                                "numerator": Math.floor(Math.random() * (max - min + 1)) + min,
-                                "denominator": denominator,
-                                "month": null,
-                                "quarter": 2,
-                                "year": year,
-                                "stratification": null,
-                                "notes": null,
-                                "submode": "geolocation",
-                            }
-                        );
-                    break;
-                    case 7:
-                    case '7':
-                        quarterValues.push(
-                            {
-                                "community":county,
-                                "numerator": Math.floor(Math.random() * (max - min + 1)) + min,
-                                "denominator": denominator,
-                                "month": null,
-                                "quarter": 3,
-                                "year": year,
-                                "stratification": null,
-                                "notes": null,
-                                "submode": "geolocation",
-                            }
-                        );
-                    break;
-                    case 10:
-                    case '10':
-                        quarterValues.push(
-                            {
-                                "community":county,
-                                "numerator": Math.floor(Math.random() * (max - min + 1)) + min,
-                                "denominator": denominator,
-                                "month": null,
-                                "quarter": 4,
-                                "year": year,
-                                "stratification": null,
-                                "notes": null,
-                                "submode": "geolocation",
-                            }
-                        );
-                    break;
-                }
-                currentDate.setMonth(currentDate.getMonth() + 1)
-            }
-        });
-        
-        return data;
+    //calculate suppression of the frontend. Make sure to calculate suppression before sending data to the client.
+    calculateFrontendSuppressionExample(inval, minSuppression, maxSuppression){
+        return inval >= minSuppression && inval <= maxSuppression? 1 : 0
     }
 
-    generateExampleStratification(){
-        return "{\"sex\":{\"female\":{\"n\":\"5\",\"d\":8066,\"s\":1},\"male\":{\"n\":\"5\",\"d\":7453,\"s\":1},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"age\":{\"18-34\":{\"n\":\"5\",\"d\":3836,\"s\":1},\"35-54\":{\"n\":\"5\",\"d\":5171,\"s\":1},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":\"5\",\"d\":947,\"s\":1},\"hisp\":{\"n\":0,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":0,\"d\":99,\"s\":0},\"white\":{\"n\":\"5\",\"d\":13659,\"s\":1}}}";
-        
+    generateExampleStratification(inval, minSuppression, maxSuppression){
+        let strat_obj = 
+            {
+                "age": {
+                    "18-34": {
+                        "n": Math.floor(inval * 0.75),
+                        "d": 3836,
+                        "s": this.calculateFrontendSuppressionExample(Math.floor(inval * 0.75), minSuppression, maxSuppression)
+                    },
+                    "35-54": {
+                        "n": Math.floor(inval * 0.25),
+                        "d": 5171,
+                        "s": this.calculateFrontendSuppressionExample(Math.floor(inval * 0.25), minSuppression, maxSuppression)
+                    },
+                    "55+": {
+                        "n": 0,
+                        "d": 6512,
+                        "s": 0
+                    },
+                    "missing": {
+                        "n": 0,
+                        "d": null,
+                        "s": 0
+                    }
+                },
+                "race": {
+                    "black": {
+                        "n": Math.floor(inval * 0.25),
+                        "d": 947,
+                        "s": this.calculateFrontendSuppressionExample(Math.floor(inval * 0.25), minSuppression, maxSuppression)
+                    },
+                    "hisp": {
+                        "n": Math.floor(inval * 0.25),
+                        "d": 814,
+                        "s": this.calculateFrontendSuppressionExample(Math.floor(inval * 0.25), minSuppression, maxSuppression)
+                    },
+                    "missing": {
+                        "d": null,
+                        "n": 0,
+                        "s": 0
+                    },
+                    "other": {
+                        "n": Math.floor(inval * 0.25),
+                        "d": 99,
+                        "s": this.calculateFrontendSuppressionExample(Math.floor(inval * 0.25), minSuppression, maxSuppression)
+                    },
+                    "white": {
+                        "n": Math.floor(inval * 0.25),
+                        "d": 13659,
+                        "s": this.calculateFrontendSuppressionExample(Math.floor(inval * 0.25), minSuppression, maxSuppression)
+                    }
+                },
+                "sex": {
+                    "female": {
+                        "n": Math.floor(inval * 0.75),
+                        "d": 8066,
+                        "s": this.calculateFrontendSuppressionExample(Math.floor(inval * 0.75), minSuppression, maxSuppression)
+                    },
+                    "male": {
+                        "n": Math.floor(inval * 0.25),
+                        "d": 7453,
+                        "s": this.calculateFrontendSuppressionExample(Math.floor(inval * 0.25), minSuppression, maxSuppression)
+                    },
+                    "missing": {
+                        "n": 0,
+                        "d": null,
+                        "s": 0
+                    }
+                }
+            }
+        return JSON.stringify(strat_obj);
     }
 
 }

@@ -160,7 +160,6 @@ export class GraphModule extends GraphSystem {
                 btn1.setAttribute("title","Pin the Graph to the View");
                 btn1.innerHTML = this.pinIcon;
                 btn1.addEventListener('click', (self, e)=>{
-                    console.log("hello");
                     this.togglePin();
                 });
                 toolBar.appendChild(btn1);
@@ -371,7 +370,6 @@ export class GraphModule extends GraphSystem {
                     btn8.setAttribute("title","Inspect Graph");
                     btn8.innerHTML = this.inspectIcon;
                     btn8.addEventListener('click', (self, e)=>{
-                        console.log("TODO: Figure this out");
                     });
                 toolBar.appendChild(btn8);
             
@@ -531,7 +529,6 @@ export class GraphModule extends GraphSystem {
         else{
             let divGraph = document.createElement("DIV");
             divGraph.id = "measuredataGraph_"+this.moduleID;
-            console.log("measuredataGraph_"+this.moduleID);
             divGraph.style.position = "relative";
             divGraph.style.padding = "1%";
             divGraph.style.textAlign = "center";
@@ -1462,7 +1459,6 @@ export class GraphModule extends GraphSystem {
         mdB.style.display = "inline-flex";
         mdB.style.width="70%";
         mdB.addEventListener("change", (self)=>{
-            console.log(self);
             this.changeMode = self.target.value;
             this.triggeredGraphMode(this.changeMode, null/*, subMode*/);
         });
@@ -1531,19 +1527,16 @@ export class GraphModule extends GraphSystem {
                 break;
             }
         }
-        console.log(this.filteredYears);
         if(this.filteredYears.length > 0){
             let id = this.moduleID;
             this.populateYearFilter(this.filteredYears, (self)=>{
                 let year = parseInt(document.getElementById(self.target.id).value)
-                console.log(this.filteredYears);
                 
                 var yf_checked = document.getElementById(self.target.id).checked;
                 if(!yf_checked && this.filteredYears.indexOf(year) >= 0){
                     this.filteredYears.splice(this.filteredYears.indexOf(year), 1);
                 }
                 else{
-                    console.log(year);
                     this.filteredYears.push(year);
                 }
                 this.updateFromFilter();
@@ -1629,8 +1622,6 @@ export class GraphModule extends GraphSystem {
     }
 
     updateFromFilter(){
-        console.log(this.getData());
-        console.log("measuredataGraph_"+this.moduleID);
         if(document.getElementById("measuredataGraph_"+this.moduleID) != null){
             document.getElementById("measuredataGraph_"+this.moduleID).innerHTML = "";
 
@@ -1652,7 +1643,6 @@ export class GraphModule extends GraphSystem {
                 this.fillGraph(this.graphMode, combinedData);
             }
             else{
-                console.log("FLAGB");
                 this.fillGraph(this.graphMode, this.getData());
 
             }
@@ -1667,8 +1657,6 @@ export class GraphModule extends GraphSystem {
         let submode = this.currentSubMode;
         if(this.graphMode != ''){
             let interval = this.graphMode
-            console.log(interval);
-            console.log(this.data);
             if(this.data != null){
                 switch(interval){
                     case 'month':
@@ -1746,7 +1734,6 @@ export class GraphModule extends GraphSystem {
         button.setAttribute('title', 'Show '+subMode+' Data');
 
         button.addEventListener("click", (self,e)=>{
-            console.log(self);
             this.toggleSubmode(self.target.id);//this.moduleID);
             this.triggeredGraphMode(null, subMode);
         });
@@ -1755,7 +1742,6 @@ export class GraphModule extends GraphSystem {
     }
     
     triggeredGraphMode(changeMode, subMode){        
-        console.log("HW");
         this.graphMode = (changeMode != null)? changeMode : this.graphMode;
         this.currentSubMode = (subMode != null)? subMode : this.currentSubMode;
         if(this.isMulti){

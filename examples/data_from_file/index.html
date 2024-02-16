@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example</title>
+	<!-- <script type ="module" src="../index.js"></script> -->
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.1.1/jspdf.umd.min.js"></script>
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="../../main.css">
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class ="col-12">
+				<h1>Dashboard Example</h1>
+				<h3>Please note that the following example does not contain real data.</h3>
+
+			</div>
+			<hr/>
+			<div class ="col-12">
+				<div id="GRAPHHOLDER">
+
+				</div>
+			</div>
+		</div>
+	</div>
+	 <!-- Modal -->
+	 <div class="modal" id="graphModal" tabindex="-1" role="dialog" aria-labelledby="graphModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xxl" role="document">
+            <div class="modal-content">
+            <div class="modal-body">
+                <div>
+                    <button type="button" data-dismiss="modal" aria-label="Close" style="float:right;color:black">X</button>
+                </div>
+                <div id = "graphModulesRoot_Modal" class = "row" style="clear:both;">
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+<script type="module">
+	import {MeasureManager} from '../../index.js';
+	var DASHBOARDSYSTEM = new MeasureManager();
+
+	async function triggerSelection(){
+		let graph_type = "standard"
+		let group = "test";
+
+		// let title2 = {
+		// 	measureID : "1",
+		// 	minSuppression : 1,
+		// 	maxSuppression : 5,
+		// };
+		
+
+		let example_data;
+		await fetch("./example_data.json")
+		.then(response=> response.json())
+		.then((data) => {
+			example_data = data;
+			console.log(data);
+			return;
+		}).then(
+			
+		)
+
+
+		fetch("./example_title.json")
+		.then(response=> response.json())
+		.then(
+			(title2) => 
+				{
+					console.log(example_data);
+					DASHBOARDSYSTEM.addMeasureTitle(title2, group);
+					DASHBOARDSYSTEM.addMeasureData(title2.measureID, example_data, title2.minSuppression, title2.maxSuppression);
+					DASHBOARDSYSTEM.spawnNewGraph(group, title2.measureID, "GRAPHHOLDER");
+				}
+			)
+
+
+		
+
+	}
+	triggerSelection();
+</script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://d3js.org/d3.v5.js"></script>
+</html>

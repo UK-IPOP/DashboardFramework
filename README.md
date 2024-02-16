@@ -7,19 +7,30 @@ This framework was designed to allow the creation of dynamic visualizations for 
 
 
 ## Add your files
+<h3>Main:</h3>
 <ul>
     <li>MeasureManager.js: class that controls the process for storing the measure title and data. It uses the information to dynamically spawn graphs on the screen</li>
     <li>GraphModule.js: class that represents the visual module containing the graph information, controls, and html. This class extends the GraphSystem class</li>
     <li>GraphSystem.js: the base class that generates the visualization by leveraging the d3 library to create bars, lines, and other aspects, in the svg visualization.</li>
 </ul>
 
-Objects:
+<h3>Objects:</h3>
 <ul>
     <li>MeasureTitle.js: class containing information about the measure.</li>
     <li>MeasureData.js: class containing the measurement's data and functions need to process the data.</li>
 </ul>
+<h3>Utilities:</h3>
+<ul>
+    <li>main.css</li>
+</ul>
 ## How to Use the Dashboard Framework
 Full prototype located in the examples directory or view an interactive demo <a href="https://uk-ipop.github.io/DashboardFramework/examples/" target="_blank">HERE</a>
+<br/>
+<br/>
+<h3>Suppression:</h3>
+<b>Some data sources require suppression of values between a set range. As a result, you will need to suppress the data in your files or database, before sending it to the client-side front end.<br/>
+This system has functionality for frontend suppression; however this functionality is for display only and should not be used for data protection.</b>
+
 
 <code>
 
@@ -32,7 +43,9 @@ Full prototype located in the examples directory or view an interactive demo <a 
         let graph_type = "standard";
         let group = "test";
         let title2 = {
-            measureID : "example"
+            measureID : "example",
+            minSuppression : 1,
+			maxSuppression : 5,
         };
         DASHBOARDSYSTEM.addMeasureTitle(title2, group);
         DASHBOARDSYSTEM.spawnNewGraph(group, title2.measureID, "GRAPHHOLDER");
@@ -62,6 +75,8 @@ Full prototype located in the examples directory or view an interactive demo <a 
         "notes": "Values between 1-5 are suppressed"
     }
 </code>
+<br/>
+
 ## Authors and acknowledgment
 
 <ul>

@@ -1,0 +1,942 @@
+[
+    {
+        "numerator": 22,
+        "denominator": 10000,
+        "month": 1,
+        "quarter": null,
+        "year": 2020,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":16,\"d\":3836,\"s\":0},\"35-54\":{\"n\":5,\"d\":5171,\"s\":1},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":5,\"d\":947,\"s\":1},\"hisp\":{\"n\":5,\"d\":814,\"s\":1},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":5,\"d\":99,\"s\":1},\"white\":{\"n\":5,\"d\":13659,\"s\":1}},\"sex\":{\"female\":{\"n\":16,\"d\":8066,\"s\":0},\"male\":{\"n\":5,\"d\":7453,\"s\":1},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 99,
+        "denominator": 10000,
+        "month": 2,
+        "quarter": null,
+        "year": 2020,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":74,\"d\":3836,\"s\":0},\"35-54\":{\"n\":24,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":24,\"d\":947,\"s\":0},\"hisp\":{\"n\":24,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":24,\"d\":99,\"s\":0},\"white\":{\"n\":24,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":74,\"d\":8066,\"s\":0},\"male\":{\"n\":24,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 85,
+        "denominator": 10000,
+        "month": 3,
+        "quarter": null,
+        "year": 2020,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":63,\"d\":3836,\"s\":0},\"35-54\":{\"n\":21,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":21,\"d\":947,\"s\":0},\"hisp\":{\"n\":21,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":21,\"d\":99,\"s\":0},\"white\":{\"n\":21,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":63,\"d\":8066,\"s\":0},\"male\":{\"n\":21,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 16,
+        "denominator": 10000,
+        "month": 4,
+        "quarter": null,
+        "year": 2020,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":12,\"d\":3836,\"s\":0},\"35-54\":{\"n\":4,\"d\":5171,\"s\":1},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":4,\"d\":947,\"s\":1},\"hisp\":{\"n\":4,\"d\":814,\"s\":1},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":4,\"d\":99,\"s\":1},\"white\":{\"n\":4,\"d\":13659,\"s\":1}},\"sex\":{\"female\":{\"n\":12,\"d\":8066,\"s\":0},\"male\":{\"n\":4,\"d\":7453,\"s\":1},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 16,
+        "denominator": 10000,
+        "month": 5,
+        "quarter": null,
+        "year": 2020,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":12,\"d\":3836,\"s\":0},\"35-54\":{\"n\":4,\"d\":5171,\"s\":1},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":4,\"d\":947,\"s\":1},\"hisp\":{\"n\":4,\"d\":814,\"s\":1},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":4,\"d\":99,\"s\":1},\"white\":{\"n\":4,\"d\":13659,\"s\":1}},\"sex\":{\"female\":{\"n\":12,\"d\":8066,\"s\":0},\"male\":{\"n\":4,\"d\":7453,\"s\":1},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 73,
+        "denominator": 10000,
+        "month": 6,
+        "quarter": null,
+        "year": 2020,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":54,\"d\":3836,\"s\":0},\"35-54\":{\"n\":18,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":18,\"d\":947,\"s\":0},\"hisp\":{\"n\":18,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":18,\"d\":99,\"s\":0},\"white\":{\"n\":18,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":54,\"d\":8066,\"s\":0},\"male\":{\"n\":18,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 32,
+        "denominator": 10000,
+        "month": 7,
+        "quarter": null,
+        "year": 2020,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":24,\"d\":3836,\"s\":0},\"35-54\":{\"n\":8,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":8,\"d\":947,\"s\":0},\"hisp\":{\"n\":8,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":8,\"d\":99,\"s\":0},\"white\":{\"n\":8,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":24,\"d\":8066,\"s\":0},\"male\":{\"n\":8,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 26,
+        "denominator": 10000,
+        "month": 8,
+        "quarter": null,
+        "year": 2020,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":19,\"d\":3836,\"s\":0},\"35-54\":{\"n\":6,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":6,\"d\":947,\"s\":0},\"hisp\":{\"n\":6,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":6,\"d\":99,\"s\":0},\"white\":{\"n\":6,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":19,\"d\":8066,\"s\":0},\"male\":{\"n\":6,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 95,
+        "denominator": 10000,
+        "month": 9,
+        "quarter": null,
+        "year": 2020,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":71,\"d\":3836,\"s\":0},\"35-54\":{\"n\":23,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":23,\"d\":947,\"s\":0},\"hisp\":{\"n\":23,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":23,\"d\":99,\"s\":0},\"white\":{\"n\":23,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":71,\"d\":8066,\"s\":0},\"male\":{\"n\":23,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 69,
+        "denominator": 10000,
+        "month": 10,
+        "quarter": null,
+        "year": 2020,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":51,\"d\":3836,\"s\":0},\"35-54\":{\"n\":17,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":17,\"d\":947,\"s\":0},\"hisp\":{\"n\":17,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":17,\"d\":99,\"s\":0},\"white\":{\"n\":17,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":51,\"d\":8066,\"s\":0},\"male\":{\"n\":17,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 72,
+        "denominator": 10000,
+        "month": 11,
+        "quarter": null,
+        "year": 2020,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":54,\"d\":3836,\"s\":0},\"35-54\":{\"n\":18,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":18,\"d\":947,\"s\":0},\"hisp\":{\"n\":18,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":18,\"d\":99,\"s\":0},\"white\":{\"n\":18,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":54,\"d\":8066,\"s\":0},\"male\":{\"n\":18,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 58,
+        "denominator": 10000,
+        "month": 12,
+        "quarter": null,
+        "year": 2020,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":43,\"d\":3836,\"s\":0},\"35-54\":{\"n\":14,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":14,\"d\":947,\"s\":0},\"hisp\":{\"n\":14,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":14,\"d\":99,\"s\":0},\"white\":{\"n\":14,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":43,\"d\":8066,\"s\":0},\"male\":{\"n\":14,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 5,
+        "denominator": 10000,
+        "month": 1,
+        "quarter": null,
+        "year": 2021,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":3,\"d\":3836,\"s\":1},\"35-54\":{\"n\":1,\"d\":5171,\"s\":1},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":1,\"d\":947,\"s\":1},\"hisp\":{\"n\":1,\"d\":814,\"s\":1},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":1,\"d\":99,\"s\":1},\"white\":{\"n\":1,\"d\":13659,\"s\":1}},\"sex\":{\"female\":{\"n\":3,\"d\":8066,\"s\":1},\"male\":{\"n\":1,\"d\":7453,\"s\":1},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 1
+    },
+    {
+        "numerator": 100,
+        "denominator": 10000,
+        "month": 2,
+        "quarter": null,
+        "year": 2021,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":75,\"d\":3836,\"s\":0},\"35-54\":{\"n\":25,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":25,\"d\":947,\"s\":0},\"hisp\":{\"n\":25,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":25,\"d\":99,\"s\":0},\"white\":{\"n\":25,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":75,\"d\":8066,\"s\":0},\"male\":{\"n\":25,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 46,
+        "denominator": 10000,
+        "month": 3,
+        "quarter": null,
+        "year": 2021,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":34,\"d\":3836,\"s\":0},\"35-54\":{\"n\":11,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":11,\"d\":947,\"s\":0},\"hisp\":{\"n\":11,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":11,\"d\":99,\"s\":0},\"white\":{\"n\":11,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":34,\"d\":8066,\"s\":0},\"male\":{\"n\":11,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 53,
+        "denominator": 10000,
+        "month": 4,
+        "quarter": null,
+        "year": 2021,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":39,\"d\":3836,\"s\":0},\"35-54\":{\"n\":13,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":13,\"d\":947,\"s\":0},\"hisp\":{\"n\":13,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":13,\"d\":99,\"s\":0},\"white\":{\"n\":13,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":39,\"d\":8066,\"s\":0},\"male\":{\"n\":13,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 78,
+        "denominator": 10000,
+        "month": 5,
+        "quarter": null,
+        "year": 2021,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":58,\"d\":3836,\"s\":0},\"35-54\":{\"n\":19,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":19,\"d\":947,\"s\":0},\"hisp\":{\"n\":19,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":19,\"d\":99,\"s\":0},\"white\":{\"n\":19,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":58,\"d\":8066,\"s\":0},\"male\":{\"n\":19,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 45,
+        "denominator": 10000,
+        "month": 6,
+        "quarter": null,
+        "year": 2021,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":33,\"d\":3836,\"s\":0},\"35-54\":{\"n\":11,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":11,\"d\":947,\"s\":0},\"hisp\":{\"n\":11,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":11,\"d\":99,\"s\":0},\"white\":{\"n\":11,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":33,\"d\":8066,\"s\":0},\"male\":{\"n\":11,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 38,
+        "denominator": 10000,
+        "month": 7,
+        "quarter": null,
+        "year": 2021,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":28,\"d\":3836,\"s\":0},\"35-54\":{\"n\":9,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":9,\"d\":947,\"s\":0},\"hisp\":{\"n\":9,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":9,\"d\":99,\"s\":0},\"white\":{\"n\":9,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":28,\"d\":8066,\"s\":0},\"male\":{\"n\":9,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 8,
+        "denominator": 10000,
+        "month": 8,
+        "quarter": null,
+        "year": 2021,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":6,\"d\":3836,\"s\":0},\"35-54\":{\"n\":2,\"d\":5171,\"s\":1},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":2,\"d\":947,\"s\":1},\"hisp\":{\"n\":2,\"d\":814,\"s\":1},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":2,\"d\":99,\"s\":1},\"white\":{\"n\":2,\"d\":13659,\"s\":1}},\"sex\":{\"female\":{\"n\":6,\"d\":8066,\"s\":0},\"male\":{\"n\":2,\"d\":7453,\"s\":1},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 98,
+        "denominator": 10000,
+        "month": 9,
+        "quarter": null,
+        "year": 2021,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":73,\"d\":3836,\"s\":0},\"35-54\":{\"n\":24,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":24,\"d\":947,\"s\":0},\"hisp\":{\"n\":24,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":24,\"d\":99,\"s\":0},\"white\":{\"n\":24,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":73,\"d\":8066,\"s\":0},\"male\":{\"n\":24,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 5,
+        "denominator": 10000,
+        "month": 10,
+        "quarter": null,
+        "year": 2021,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":2,\"d\":3836,\"s\":1},\"35-54\":{\"n\":0,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":0,\"d\":947,\"s\":0},\"hisp\":{\"n\":0,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":0,\"d\":99,\"s\":0},\"white\":{\"n\":0,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":2,\"d\":8066,\"s\":1},\"male\":{\"n\":0,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 1
+    },
+    {
+        "numerator": 5,
+        "denominator": 10000,
+        "month": 11,
+        "quarter": null,
+        "year": 2021,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":1,\"d\":3836,\"s\":1},\"35-54\":{\"n\":0,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":0,\"d\":947,\"s\":0},\"hisp\":{\"n\":0,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":0,\"d\":99,\"s\":0},\"white\":{\"n\":0,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":1,\"d\":8066,\"s\":1},\"male\":{\"n\":0,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 1
+    },
+    {
+        "numerator": 31,
+        "denominator": 10000,
+        "month": 12,
+        "quarter": null,
+        "year": 2021,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":23,\"d\":3836,\"s\":0},\"35-54\":{\"n\":7,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":7,\"d\":947,\"s\":0},\"hisp\":{\"n\":7,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":7,\"d\":99,\"s\":0},\"white\":{\"n\":7,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":23,\"d\":8066,\"s\":0},\"male\":{\"n\":7,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 5,
+        "denominator": 10000,
+        "month": 1,
+        "quarter": null,
+        "year": 2022,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":2,\"d\":3836,\"s\":1},\"35-54\":{\"n\":0,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":0,\"d\":947,\"s\":0},\"hisp\":{\"n\":0,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":0,\"d\":99,\"s\":0},\"white\":{\"n\":0,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":2,\"d\":8066,\"s\":1},\"male\":{\"n\":0,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 1
+    },
+    {
+        "numerator": 30,
+        "denominator": 10000,
+        "month": 2,
+        "quarter": null,
+        "year": 2022,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":22,\"d\":3836,\"s\":0},\"35-54\":{\"n\":7,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":7,\"d\":947,\"s\":0},\"hisp\":{\"n\":7,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":7,\"d\":99,\"s\":0},\"white\":{\"n\":7,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":22,\"d\":8066,\"s\":0},\"male\":{\"n\":7,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 6,
+        "denominator": 10000,
+        "month": 3,
+        "quarter": null,
+        "year": 2022,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":4,\"d\":3836,\"s\":1},\"35-54\":{\"n\":1,\"d\":5171,\"s\":1},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":1,\"d\":947,\"s\":1},\"hisp\":{\"n\":1,\"d\":814,\"s\":1},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":1,\"d\":99,\"s\":1},\"white\":{\"n\":1,\"d\":13659,\"s\":1}},\"sex\":{\"female\":{\"n\":4,\"d\":8066,\"s\":1},\"male\":{\"n\":1,\"d\":7453,\"s\":1},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 44,
+        "denominator": 10000,
+        "month": 4,
+        "quarter": null,
+        "year": 2022,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":33,\"d\":3836,\"s\":0},\"35-54\":{\"n\":11,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":11,\"d\":947,\"s\":0},\"hisp\":{\"n\":11,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":11,\"d\":99,\"s\":0},\"white\":{\"n\":11,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":33,\"d\":8066,\"s\":0},\"male\":{\"n\":11,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 75,
+        "denominator": 10000,
+        "month": 5,
+        "quarter": null,
+        "year": 2022,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":56,\"d\":3836,\"s\":0},\"35-54\":{\"n\":18,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":18,\"d\":947,\"s\":0},\"hisp\":{\"n\":18,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":18,\"d\":99,\"s\":0},\"white\":{\"n\":18,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":56,\"d\":8066,\"s\":0},\"male\":{\"n\":18,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 13,
+        "denominator": 10000,
+        "month": 6,
+        "quarter": null,
+        "year": 2022,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":9,\"d\":3836,\"s\":0},\"35-54\":{\"n\":3,\"d\":5171,\"s\":1},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":3,\"d\":947,\"s\":1},\"hisp\":{\"n\":3,\"d\":814,\"s\":1},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":3,\"d\":99,\"s\":1},\"white\":{\"n\":3,\"d\":13659,\"s\":1}},\"sex\":{\"female\":{\"n\":9,\"d\":8066,\"s\":0},\"male\":{\"n\":3,\"d\":7453,\"s\":1},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 68,
+        "denominator": 10000,
+        "month": 7,
+        "quarter": null,
+        "year": 2022,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":51,\"d\":3836,\"s\":0},\"35-54\":{\"n\":17,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":17,\"d\":947,\"s\":0},\"hisp\":{\"n\":17,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":17,\"d\":99,\"s\":0},\"white\":{\"n\":17,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":51,\"d\":8066,\"s\":0},\"male\":{\"n\":17,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 78,
+        "denominator": 10000,
+        "month": 8,
+        "quarter": null,
+        "year": 2022,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":58,\"d\":3836,\"s\":0},\"35-54\":{\"n\":19,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":19,\"d\":947,\"s\":0},\"hisp\":{\"n\":19,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":19,\"d\":99,\"s\":0},\"white\":{\"n\":19,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":58,\"d\":8066,\"s\":0},\"male\":{\"n\":19,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 75,
+        "denominator": 10000,
+        "month": 9,
+        "quarter": null,
+        "year": 2022,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":56,\"d\":3836,\"s\":0},\"35-54\":{\"n\":18,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":18,\"d\":947,\"s\":0},\"hisp\":{\"n\":18,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":18,\"d\":99,\"s\":0},\"white\":{\"n\":18,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":56,\"d\":8066,\"s\":0},\"male\":{\"n\":18,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 34,
+        "denominator": 10000,
+        "month": 10,
+        "quarter": null,
+        "year": 2022,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":25,\"d\":3836,\"s\":0},\"35-54\":{\"n\":8,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":8,\"d\":947,\"s\":0},\"hisp\":{\"n\":8,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":8,\"d\":99,\"s\":0},\"white\":{\"n\":8,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":25,\"d\":8066,\"s\":0},\"male\":{\"n\":8,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 78,
+        "denominator": 10000,
+        "month": 11,
+        "quarter": null,
+        "year": 2022,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":58,\"d\":3836,\"s\":0},\"35-54\":{\"n\":19,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":19,\"d\":947,\"s\":0},\"hisp\":{\"n\":19,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":19,\"d\":99,\"s\":0},\"white\":{\"n\":19,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":58,\"d\":8066,\"s\":0},\"male\":{\"n\":19,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 32,
+        "denominator": 10000,
+        "month": 12,
+        "quarter": null,
+        "year": 2022,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":24,\"d\":3836,\"s\":0},\"35-54\":{\"n\":8,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":8,\"d\":947,\"s\":0},\"hisp\":{\"n\":8,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":8,\"d\":99,\"s\":0},\"white\":{\"n\":8,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":24,\"d\":8066,\"s\":0},\"male\":{\"n\":8,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 34,
+        "denominator": 10000,
+        "month": 1,
+        "quarter": null,
+        "year": 2023,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":25,\"d\":3836,\"s\":0},\"35-54\":{\"n\":8,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":8,\"d\":947,\"s\":0},\"hisp\":{\"n\":8,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":8,\"d\":99,\"s\":0},\"white\":{\"n\":8,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":25,\"d\":8066,\"s\":0},\"male\":{\"n\":8,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 67,
+        "denominator": 10000,
+        "month": 2,
+        "quarter": null,
+        "year": 2023,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":50,\"d\":3836,\"s\":0},\"35-54\":{\"n\":16,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":16,\"d\":947,\"s\":0},\"hisp\":{\"n\":16,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":16,\"d\":99,\"s\":0},\"white\":{\"n\":16,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":50,\"d\":8066,\"s\":0},\"male\":{\"n\":16,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 63,
+        "denominator": 10000,
+        "month": 3,
+        "quarter": null,
+        "year": 2023,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":47,\"d\":3836,\"s\":0},\"35-54\":{\"n\":15,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":15,\"d\":947,\"s\":0},\"hisp\":{\"n\":15,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":15,\"d\":99,\"s\":0},\"white\":{\"n\":15,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":47,\"d\":8066,\"s\":0},\"male\":{\"n\":15,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 5,
+        "denominator": 10000,
+        "month": 4,
+        "quarter": null,
+        "year": 2023,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":3,\"d\":3836,\"s\":1},\"35-54\":{\"n\":1,\"d\":5171,\"s\":1},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":1,\"d\":947,\"s\":1},\"hisp\":{\"n\":1,\"d\":814,\"s\":1},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":1,\"d\":99,\"s\":1},\"white\":{\"n\":1,\"d\":13659,\"s\":1}},\"sex\":{\"female\":{\"n\":3,\"d\":8066,\"s\":1},\"male\":{\"n\":1,\"d\":7453,\"s\":1},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 1
+    },
+    {
+        "numerator": 40,
+        "denominator": 10000,
+        "month": 5,
+        "quarter": null,
+        "year": 2023,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":30,\"d\":3836,\"s\":0},\"35-54\":{\"n\":10,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":10,\"d\":947,\"s\":0},\"hisp\":{\"n\":10,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":10,\"d\":99,\"s\":0},\"white\":{\"n\":10,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":30,\"d\":8066,\"s\":0},\"male\":{\"n\":10,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 44,
+        "denominator": 10000,
+        "month": 6,
+        "quarter": null,
+        "year": 2023,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":33,\"d\":3836,\"s\":0},\"35-54\":{\"n\":11,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":11,\"d\":947,\"s\":0},\"hisp\":{\"n\":11,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":11,\"d\":99,\"s\":0},\"white\":{\"n\":11,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":33,\"d\":8066,\"s\":0},\"male\":{\"n\":11,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 81,
+        "denominator": 10000,
+        "month": 7,
+        "quarter": null,
+        "year": 2023,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":60,\"d\":3836,\"s\":0},\"35-54\":{\"n\":20,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":20,\"d\":947,\"s\":0},\"hisp\":{\"n\":20,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":20,\"d\":99,\"s\":0},\"white\":{\"n\":20,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":60,\"d\":8066,\"s\":0},\"male\":{\"n\":20,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 93,
+        "denominator": 10000,
+        "month": 8,
+        "quarter": null,
+        "year": 2023,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":69,\"d\":3836,\"s\":0},\"35-54\":{\"n\":23,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":23,\"d\":947,\"s\":0},\"hisp\":{\"n\":23,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":23,\"d\":99,\"s\":0},\"white\":{\"n\":23,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":69,\"d\":8066,\"s\":0},\"male\":{\"n\":23,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 27,
+        "denominator": 10000,
+        "month": 9,
+        "quarter": null,
+        "year": 2023,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":20,\"d\":3836,\"s\":0},\"35-54\":{\"n\":6,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":6,\"d\":947,\"s\":0},\"hisp\":{\"n\":6,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":6,\"d\":99,\"s\":0},\"white\":{\"n\":6,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":20,\"d\":8066,\"s\":0},\"male\":{\"n\":6,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 61,
+        "denominator": 10000,
+        "month": 10,
+        "quarter": null,
+        "year": 2023,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":45,\"d\":3836,\"s\":0},\"35-54\":{\"n\":15,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":15,\"d\":947,\"s\":0},\"hisp\":{\"n\":15,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":15,\"d\":99,\"s\":0},\"white\":{\"n\":15,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":45,\"d\":8066,\"s\":0},\"male\":{\"n\":15,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 76,
+        "denominator": 10000,
+        "month": 11,
+        "quarter": null,
+        "year": 2023,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":57,\"d\":3836,\"s\":0},\"35-54\":{\"n\":19,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":19,\"d\":947,\"s\":0},\"hisp\":{\"n\":19,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":19,\"d\":99,\"s\":0},\"white\":{\"n\":19,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":57,\"d\":8066,\"s\":0},\"male\":{\"n\":19,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 10,
+        "denominator": 10000,
+        "month": 12,
+        "quarter": null,
+        "year": 2023,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":7,\"d\":3836,\"s\":0},\"35-54\":{\"n\":2,\"d\":5171,\"s\":1},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":2,\"d\":947,\"s\":1},\"hisp\":{\"n\":2,\"d\":814,\"s\":1},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":2,\"d\":99,\"s\":1},\"white\":{\"n\":2,\"d\":13659,\"s\":1}},\"sex\":{\"female\":{\"n\":7,\"d\":8066,\"s\":0},\"male\":{\"n\":2,\"d\":7453,\"s\":1},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 16,
+        "denominator": 10000,
+        "month": 1,
+        "quarter": null,
+        "year": 2024,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":12,\"d\":3836,\"s\":0},\"35-54\":{\"n\":4,\"d\":5171,\"s\":1},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":4,\"d\":947,\"s\":1},\"hisp\":{\"n\":4,\"d\":814,\"s\":1},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":4,\"d\":99,\"s\":1},\"white\":{\"n\":4,\"d\":13659,\"s\":1}},\"sex\":{\"female\":{\"n\":12,\"d\":8066,\"s\":0},\"male\":{\"n\":4,\"d\":7453,\"s\":1},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 49,
+        "denominator": 10000,
+        "month": 2,
+        "quarter": null,
+        "year": 2024,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":36,\"d\":3836,\"s\":0},\"35-54\":{\"n\":12,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":12,\"d\":947,\"s\":0},\"hisp\":{\"n\":12,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":12,\"d\":99,\"s\":0},\"white\":{\"n\":12,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":36,\"d\":8066,\"s\":0},\"male\":{\"n\":12,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": "Values between 1-5 are suppressed",
+        "issuppressed": 0
+    },
+    {
+        "numerator": 85,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 1,
+        "year": 2020,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":63,\"d\":3836,\"s\":0},\"35-54\":{\"n\":21,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":21,\"d\":947,\"s\":0},\"hisp\":{\"n\":21,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":21,\"d\":99,\"s\":0},\"white\":{\"n\":21,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":63,\"d\":8066,\"s\":0},\"male\":{\"n\":21,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 55,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 2,
+        "year": 2020,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":41,\"d\":3836,\"s\":0},\"35-54\":{\"n\":13,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":13,\"d\":947,\"s\":0},\"hisp\":{\"n\":13,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":13,\"d\":99,\"s\":0},\"white\":{\"n\":13,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":41,\"d\":8066,\"s\":0},\"male\":{\"n\":13,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 44,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 3,
+        "year": 2020,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":33,\"d\":3836,\"s\":0},\"35-54\":{\"n\":11,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":11,\"d\":947,\"s\":0},\"hisp\":{\"n\":11,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":11,\"d\":99,\"s\":0},\"white\":{\"n\":11,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":33,\"d\":8066,\"s\":0},\"male\":{\"n\":11,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 8,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 4,
+        "year": 2020,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":6,\"d\":3836,\"s\":0},\"35-54\":{\"n\":2,\"d\":5171,\"s\":1},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":2,\"d\":947,\"s\":1},\"hisp\":{\"n\":2,\"d\":814,\"s\":1},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":2,\"d\":99,\"s\":1},\"white\":{\"n\":2,\"d\":13659,\"s\":1}},\"sex\":{\"female\":{\"n\":6,\"d\":8066,\"s\":0},\"male\":{\"n\":2,\"d\":7453,\"s\":1},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 96,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 1,
+        "year": 2021,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":72,\"d\":3836,\"s\":0},\"35-54\":{\"n\":24,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":24,\"d\":947,\"s\":0},\"hisp\":{\"n\":24,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":24,\"d\":99,\"s\":0},\"white\":{\"n\":24,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":72,\"d\":8066,\"s\":0},\"male\":{\"n\":24,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 5,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 2,
+        "year": 2021,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":2,\"d\":3836,\"s\":1},\"35-54\":{\"n\":0,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":0,\"d\":947,\"s\":0},\"hisp\":{\"n\":0,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":0,\"d\":99,\"s\":0},\"white\":{\"n\":0,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":2,\"d\":8066,\"s\":1},\"male\":{\"n\":0,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 1
+    },
+    {
+        "numerator": 10,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 3,
+        "year": 2021,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":7,\"d\":3836,\"s\":0},\"35-54\":{\"n\":2,\"d\":5171,\"s\":1},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":2,\"d\":947,\"s\":1},\"hisp\":{\"n\":2,\"d\":814,\"s\":1},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":2,\"d\":99,\"s\":1},\"white\":{\"n\":2,\"d\":13659,\"s\":1}},\"sex\":{\"female\":{\"n\":7,\"d\":8066,\"s\":0},\"male\":{\"n\":2,\"d\":7453,\"s\":1},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 63,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 4,
+        "year": 2021,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":47,\"d\":3836,\"s\":0},\"35-54\":{\"n\":15,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":15,\"d\":947,\"s\":0},\"hisp\":{\"n\":15,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":15,\"d\":99,\"s\":0},\"white\":{\"n\":15,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":47,\"d\":8066,\"s\":0},\"male\":{\"n\":15,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 76,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 1,
+        "year": 2022,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":57,\"d\":3836,\"s\":0},\"35-54\":{\"n\":19,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":19,\"d\":947,\"s\":0},\"hisp\":{\"n\":19,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":19,\"d\":99,\"s\":0},\"white\":{\"n\":19,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":57,\"d\":8066,\"s\":0},\"male\":{\"n\":19,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 84,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 2,
+        "year": 2022,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":63,\"d\":3836,\"s\":0},\"35-54\":{\"n\":21,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":21,\"d\":947,\"s\":0},\"hisp\":{\"n\":21,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":21,\"d\":99,\"s\":0},\"white\":{\"n\":21,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":63,\"d\":8066,\"s\":0},\"male\":{\"n\":21,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 45,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 3,
+        "year": 2022,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":33,\"d\":3836,\"s\":0},\"35-54\":{\"n\":11,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":11,\"d\":947,\"s\":0},\"hisp\":{\"n\":11,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":11,\"d\":99,\"s\":0},\"white\":{\"n\":11,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":33,\"d\":8066,\"s\":0},\"male\":{\"n\":11,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 60,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 4,
+        "year": 2022,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":45,\"d\":3836,\"s\":0},\"35-54\":{\"n\":15,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":15,\"d\":947,\"s\":0},\"hisp\":{\"n\":15,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":15,\"d\":99,\"s\":0},\"white\":{\"n\":15,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":45,\"d\":8066,\"s\":0},\"male\":{\"n\":15,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 9,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 1,
+        "year": 2023,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":6,\"d\":3836,\"s\":0},\"35-54\":{\"n\":2,\"d\":5171,\"s\":1},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":2,\"d\":947,\"s\":1},\"hisp\":{\"n\":2,\"d\":814,\"s\":1},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":2,\"d\":99,\"s\":1},\"white\":{\"n\":2,\"d\":13659,\"s\":1}},\"sex\":{\"female\":{\"n\":6,\"d\":8066,\"s\":0},\"male\":{\"n\":2,\"d\":7453,\"s\":1},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 15,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 2,
+        "year": 2023,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":11,\"d\":3836,\"s\":0},\"35-54\":{\"n\":3,\"d\":5171,\"s\":1},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":3,\"d\":947,\"s\":1},\"hisp\":{\"n\":3,\"d\":814,\"s\":1},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":3,\"d\":99,\"s\":1},\"white\":{\"n\":3,\"d\":13659,\"s\":1}},\"sex\":{\"female\":{\"n\":11,\"d\":8066,\"s\":0},\"male\":{\"n\":3,\"d\":7453,\"s\":1},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 23,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 3,
+        "year": 2023,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":17,\"d\":3836,\"s\":0},\"35-54\":{\"n\":5,\"d\":5171,\"s\":1},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":5,\"d\":947,\"s\":1},\"hisp\":{\"n\":5,\"d\":814,\"s\":1},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":5,\"d\":99,\"s\":1},\"white\":{\"n\":5,\"d\":13659,\"s\":1}},\"sex\":{\"female\":{\"n\":17,\"d\":8066,\"s\":0},\"male\":{\"n\":5,\"d\":7453,\"s\":1},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 15,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 4,
+        "year": 2023,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":11,\"d\":3836,\"s\":0},\"35-54\":{\"n\":3,\"d\":5171,\"s\":1},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":3,\"d\":947,\"s\":1},\"hisp\":{\"n\":3,\"d\":814,\"s\":1},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":3,\"d\":99,\"s\":1},\"white\":{\"n\":3,\"d\":13659,\"s\":1}},\"sex\":{\"female\":{\"n\":11,\"d\":8066,\"s\":0},\"male\":{\"n\":3,\"d\":7453,\"s\":1},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 86,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 1,
+        "year": 2024,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":64,\"d\":3836,\"s\":0},\"35-54\":{\"n\":21,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":21,\"d\":947,\"s\":0},\"hisp\":{\"n\":21,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":21,\"d\":99,\"s\":0},\"white\":{\"n\":21,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":64,\"d\":8066,\"s\":0},\"male\":{\"n\":21,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 58,
+        "denominator": 10000,
+        "month": null,
+        "quarter": null,
+        "year": 2020,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":43,\"d\":3836,\"s\":0},\"35-54\":{\"n\":14,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":14,\"d\":947,\"s\":0},\"hisp\":{\"n\":14,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":14,\"d\":99,\"s\":0},\"white\":{\"n\":14,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":43,\"d\":8066,\"s\":0},\"male\":{\"n\":14,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 87,
+        "denominator": 10000,
+        "month": null,
+        "quarter": null,
+        "year": 2021,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":65,\"d\":3836,\"s\":0},\"35-54\":{\"n\":21,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":21,\"d\":947,\"s\":0},\"hisp\":{\"n\":21,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":21,\"d\":99,\"s\":0},\"white\":{\"n\":21,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":65,\"d\":8066,\"s\":0},\"male\":{\"n\":21,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 48,
+        "denominator": 10000,
+        "month": null,
+        "quarter": null,
+        "year": 2022,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":36,\"d\":3836,\"s\":0},\"35-54\":{\"n\":12,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":12,\"d\":947,\"s\":0},\"hisp\":{\"n\":12,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":12,\"d\":99,\"s\":0},\"white\":{\"n\":12,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":36,\"d\":8066,\"s\":0},\"male\":{\"n\":12,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 6,
+        "denominator": 10000,
+        "month": null,
+        "quarter": null,
+        "year": 2023,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":4,\"d\":3836,\"s\":1},\"35-54\":{\"n\":1,\"d\":5171,\"s\":1},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":1,\"d\":947,\"s\":1},\"hisp\":{\"n\":1,\"d\":814,\"s\":1},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":1,\"d\":99,\"s\":1},\"white\":{\"n\":1,\"d\":13659,\"s\":1}},\"sex\":{\"female\":{\"n\":4,\"d\":8066,\"s\":1},\"male\":{\"n\":1,\"d\":7453,\"s\":1},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 63,
+        "denominator": 10000,
+        "month": null,
+        "quarter": null,
+        "year": 2024,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":47,\"d\":3836,\"s\":0},\"35-54\":{\"n\":15,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":15,\"d\":947,\"s\":0},\"hisp\":{\"n\":15,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":15,\"d\":99,\"s\":0},\"white\":{\"n\":15,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":47,\"d\":8066,\"s\":0},\"male\":{\"n\":15,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 85,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 1,
+        "year": 2020,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":63,\"d\":3836,\"s\":0},\"35-54\":{\"n\":21,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":21,\"d\":947,\"s\":0},\"hisp\":{\"n\":21,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":21,\"d\":99,\"s\":0},\"white\":{\"n\":21,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":63,\"d\":8066,\"s\":0},\"male\":{\"n\":21,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 55,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 2,
+        "year": 2020,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":41,\"d\":3836,\"s\":0},\"35-54\":{\"n\":13,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":13,\"d\":947,\"s\":0},\"hisp\":{\"n\":13,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":13,\"d\":99,\"s\":0},\"white\":{\"n\":13,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":41,\"d\":8066,\"s\":0},\"male\":{\"n\":13,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 44,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 3,
+        "year": 2020,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":33,\"d\":3836,\"s\":0},\"35-54\":{\"n\":11,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":11,\"d\":947,\"s\":0},\"hisp\":{\"n\":11,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":11,\"d\":99,\"s\":0},\"white\":{\"n\":11,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":33,\"d\":8066,\"s\":0},\"male\":{\"n\":11,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 8,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 4,
+        "year": 2020,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":6,\"d\":3836,\"s\":0},\"35-54\":{\"n\":2,\"d\":5171,\"s\":1},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":2,\"d\":947,\"s\":1},\"hisp\":{\"n\":2,\"d\":814,\"s\":1},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":2,\"d\":99,\"s\":1},\"white\":{\"n\":2,\"d\":13659,\"s\":1}},\"sex\":{\"female\":{\"n\":6,\"d\":8066,\"s\":0},\"male\":{\"n\":2,\"d\":7453,\"s\":1},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 96,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 1,
+        "year": 2021,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":72,\"d\":3836,\"s\":0},\"35-54\":{\"n\":24,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":24,\"d\":947,\"s\":0},\"hisp\":{\"n\":24,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":24,\"d\":99,\"s\":0},\"white\":{\"n\":24,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":72,\"d\":8066,\"s\":0},\"male\":{\"n\":24,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 5,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 2,
+        "year": 2021,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":2,\"d\":3836,\"s\":1},\"35-54\":{\"n\":0,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":0,\"d\":947,\"s\":0},\"hisp\":{\"n\":0,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":0,\"d\":99,\"s\":0},\"white\":{\"n\":0,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":2,\"d\":8066,\"s\":1},\"male\":{\"n\":0,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 1
+    },
+    {
+        "numerator": 10,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 3,
+        "year": 2021,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":7,\"d\":3836,\"s\":0},\"35-54\":{\"n\":2,\"d\":5171,\"s\":1},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":2,\"d\":947,\"s\":1},\"hisp\":{\"n\":2,\"d\":814,\"s\":1},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":2,\"d\":99,\"s\":1},\"white\":{\"n\":2,\"d\":13659,\"s\":1}},\"sex\":{\"female\":{\"n\":7,\"d\":8066,\"s\":0},\"male\":{\"n\":2,\"d\":7453,\"s\":1},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 63,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 4,
+        "year": 2021,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":47,\"d\":3836,\"s\":0},\"35-54\":{\"n\":15,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":15,\"d\":947,\"s\":0},\"hisp\":{\"n\":15,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":15,\"d\":99,\"s\":0},\"white\":{\"n\":15,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":47,\"d\":8066,\"s\":0},\"male\":{\"n\":15,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 76,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 1,
+        "year": 2022,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":57,\"d\":3836,\"s\":0},\"35-54\":{\"n\":19,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":19,\"d\":947,\"s\":0},\"hisp\":{\"n\":19,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":19,\"d\":99,\"s\":0},\"white\":{\"n\":19,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":57,\"d\":8066,\"s\":0},\"male\":{\"n\":19,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 84,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 2,
+        "year": 2022,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":63,\"d\":3836,\"s\":0},\"35-54\":{\"n\":21,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":21,\"d\":947,\"s\":0},\"hisp\":{\"n\":21,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":21,\"d\":99,\"s\":0},\"white\":{\"n\":21,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":63,\"d\":8066,\"s\":0},\"male\":{\"n\":21,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 45,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 3,
+        "year": 2022,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":33,\"d\":3836,\"s\":0},\"35-54\":{\"n\":11,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":11,\"d\":947,\"s\":0},\"hisp\":{\"n\":11,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":11,\"d\":99,\"s\":0},\"white\":{\"n\":11,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":33,\"d\":8066,\"s\":0},\"male\":{\"n\":11,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 60,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 4,
+        "year": 2022,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":45,\"d\":3836,\"s\":0},\"35-54\":{\"n\":15,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":15,\"d\":947,\"s\":0},\"hisp\":{\"n\":15,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":15,\"d\":99,\"s\":0},\"white\":{\"n\":15,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":45,\"d\":8066,\"s\":0},\"male\":{\"n\":15,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 9,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 1,
+        "year": 2023,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":6,\"d\":3836,\"s\":0},\"35-54\":{\"n\":2,\"d\":5171,\"s\":1},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":2,\"d\":947,\"s\":1},\"hisp\":{\"n\":2,\"d\":814,\"s\":1},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":2,\"d\":99,\"s\":1},\"white\":{\"n\":2,\"d\":13659,\"s\":1}},\"sex\":{\"female\":{\"n\":6,\"d\":8066,\"s\":0},\"male\":{\"n\":2,\"d\":7453,\"s\":1},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 15,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 2,
+        "year": 2023,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":11,\"d\":3836,\"s\":0},\"35-54\":{\"n\":3,\"d\":5171,\"s\":1},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":3,\"d\":947,\"s\":1},\"hisp\":{\"n\":3,\"d\":814,\"s\":1},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":3,\"d\":99,\"s\":1},\"white\":{\"n\":3,\"d\":13659,\"s\":1}},\"sex\":{\"female\":{\"n\":11,\"d\":8066,\"s\":0},\"male\":{\"n\":3,\"d\":7453,\"s\":1},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 23,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 3,
+        "year": 2023,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":17,\"d\":3836,\"s\":0},\"35-54\":{\"n\":5,\"d\":5171,\"s\":1},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":5,\"d\":947,\"s\":1},\"hisp\":{\"n\":5,\"d\":814,\"s\":1},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":5,\"d\":99,\"s\":1},\"white\":{\"n\":5,\"d\":13659,\"s\":1}},\"sex\":{\"female\":{\"n\":17,\"d\":8066,\"s\":0},\"male\":{\"n\":5,\"d\":7453,\"s\":1},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 15,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 4,
+        "year": 2023,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":11,\"d\":3836,\"s\":0},\"35-54\":{\"n\":3,\"d\":5171,\"s\":1},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":3,\"d\":947,\"s\":1},\"hisp\":{\"n\":3,\"d\":814,\"s\":1},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":3,\"d\":99,\"s\":1},\"white\":{\"n\":3,\"d\":13659,\"s\":1}},\"sex\":{\"female\":{\"n\":11,\"d\":8066,\"s\":0},\"male\":{\"n\":3,\"d\":7453,\"s\":1},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 86,
+        "denominator": 10000,
+        "month": null,
+        "quarter": 1,
+        "year": 2024,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":64,\"d\":3836,\"s\":0},\"35-54\":{\"n\":21,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":21,\"d\":947,\"s\":0},\"hisp\":{\"n\":21,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":21,\"d\":99,\"s\":0},\"white\":{\"n\":21,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":64,\"d\":8066,\"s\":0},\"male\":{\"n\":21,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 58,
+        "denominator": 10000,
+        "month": null,
+        "quarter": null,
+        "year": 2020,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":43,\"d\":3836,\"s\":0},\"35-54\":{\"n\":14,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":14,\"d\":947,\"s\":0},\"hisp\":{\"n\":14,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":14,\"d\":99,\"s\":0},\"white\":{\"n\":14,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":43,\"d\":8066,\"s\":0},\"male\":{\"n\":14,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 87,
+        "denominator": 10000,
+        "month": null,
+        "quarter": null,
+        "year": 2021,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":65,\"d\":3836,\"s\":0},\"35-54\":{\"n\":21,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":21,\"d\":947,\"s\":0},\"hisp\":{\"n\":21,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":21,\"d\":99,\"s\":0},\"white\":{\"n\":21,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":65,\"d\":8066,\"s\":0},\"male\":{\"n\":21,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 48,
+        "denominator": 10000,
+        "month": null,
+        "quarter": null,
+        "year": 2022,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":36,\"d\":3836,\"s\":0},\"35-54\":{\"n\":12,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":12,\"d\":947,\"s\":0},\"hisp\":{\"n\":12,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":12,\"d\":99,\"s\":0},\"white\":{\"n\":12,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":36,\"d\":8066,\"s\":0},\"male\":{\"n\":12,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 6,
+        "denominator": 10000,
+        "month": null,
+        "quarter": null,
+        "year": 2023,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":4,\"d\":3836,\"s\":1},\"35-54\":{\"n\":1,\"d\":5171,\"s\":1},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":1,\"d\":947,\"s\":1},\"hisp\":{\"n\":1,\"d\":814,\"s\":1},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":1,\"d\":99,\"s\":1},\"white\":{\"n\":1,\"d\":13659,\"s\":1}},\"sex\":{\"female\":{\"n\":4,\"d\":8066,\"s\":1},\"male\":{\"n\":1,\"d\":7453,\"s\":1},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    },
+    {
+        "numerator": 63,
+        "denominator": 10000,
+        "month": null,
+        "quarter": null,
+        "year": 2024,
+        "stratification": "{\"age\":{\"18-34\":{\"n\":47,\"d\":3836,\"s\":0},\"35-54\":{\"n\":15,\"d\":5171,\"s\":0},\"55+\":{\"n\":0,\"d\":6512,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}},\"race\":{\"black\":{\"n\":15,\"d\":947,\"s\":0},\"hisp\":{\"n\":15,\"d\":814,\"s\":0},\"missing\":{\"d\":null,\"n\":0,\"s\":0},\"other\":{\"n\":15,\"d\":99,\"s\":0},\"white\":{\"n\":15,\"d\":13659,\"s\":0}},\"sex\":{\"female\":{\"n\":47,\"d\":8066,\"s\":0},\"male\":{\"n\":15,\"d\":7453,\"s\":0},\"missing\":{\"n\":0,\"d\":null,\"s\":0}}}",
+        "notes": null,
+        "issuppressed": 0
+    }
+]
