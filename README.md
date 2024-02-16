@@ -24,7 +24,11 @@ This framework was designed to allow the creation of dynamic visualizations for 
     <li>main.css</li>
 </ul>
 ## How to Use the Dashboard Framework
-Full prototype located in the examples directory or view an interactive demo <a href="https://uk-ipop.github.io/DashboardFramework/examples/" target="_blank">HERE</a>
+Full prototype located in the examples directory or view an interactive demo:
+<ul>
+	<li><a href="https://uk-ipop.github.io/DashboardFramework/examples/generated_data/" target="_blank">example of data loaded from files</a></li>
+	<li><a href="https://uk-ipop.github.io/DashboardFramework/examples/data_from_file/" target="_blank">example of in-line generated data</a></li>
+</ul>
 <br/>
 <br/>
 <h3>Suppression:</h3>
