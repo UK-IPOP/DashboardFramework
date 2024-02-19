@@ -11,7 +11,6 @@ export class MeasureTitle {
         this.graphType = indata.graphType || "1";
         this.graph_information = indata.graph_information || "Number of opioid overdose deaths among community residents as determined from review of death certificates, post-mortem toxicology data, and other medico-legal documents. Numbers between 1 and 5 were suppressed according to the state data release policy for protecting confidentiality.";
         this.hasCustomRate = indata.hasCustomRate || null;
-        this.isVisible = indata.isVisible || "1";
         this.isVisibleMonth = indata.isVisibleMonth || true;
         this.isVisibleQuarter = indata.isVisibleQuarter || true;
         this.isVisibleYear = indata.isVisibleYear || true;
@@ -19,11 +18,7 @@ export class MeasureTitle {
         this.measureNotes = indata.measureNotes || "";
         this.measureTitle = indata.measureTitle || "Opioid overdose deaths among HCS community residents";
         this.minSuppression = indata.minSuppression || 1;
-        this.moud = indata.moud || "0";
-        this.naloxone = indata.naloxone || "0";
         this.num_units = indata.num_units || "Deaths";
-        this.overdose = indata.overdose || "0";
-        this.prescription = indata.prescription || "0";
         this.source_link = indata.source_link || "";
         this.source_text = indata.source_text || "Office of Example Data";
         this.submodes = indata.submodes || ["sum", "average"];
